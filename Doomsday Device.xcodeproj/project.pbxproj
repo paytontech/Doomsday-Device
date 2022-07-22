@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C5CD49288A4C07004842AF /* Doomsday_DeviceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5CD48288A4C07004842AF /* Doomsday_DeviceApp.swift */; };
+		45C5CD4B288A4C07004842AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5CD4A288A4C07004842AF /* ContentView.swift */; };
+		45C5CD4D288A4C0A004842AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C5CD4C288A4C0A004842AF /* Assets.xcassets */; };
+		45C5CD50288A4C0A004842AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C5CD4F288A4C0A004842AF /* Preview Assets.xcassets */; };
+		45C5CD5B288A4C0A004842AF /* Doomsday_DeviceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5CD5A288A4C0A004842AF /* Doomsday_DeviceTests.swift */; };
+		45C5CD65288A4C0A004842AF /* Doomsday_DeviceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5CD64288A4C0A004842AF /* Doomsday_DeviceUITests.swift */; };
+		45C5CD67288A4C0A004842AF /* Doomsday_DeviceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5CD66288A4C0A004842AF /* Doomsday_DeviceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C5CD57288A4C0A004842AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C5CD3D288A4C07004842AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C5CD44288A4C07004842AF;
+			remoteInfo = "Doomsday Device";
+		};
+		45C5CD61288A4C0A004842AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C5CD3D288A4C07004842AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C5CD44288A4C07004842AF;
+			remoteInfo = "Doomsday Device";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45C5CD45288A4C07004842AF /* Doomsday Device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doomsday Device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C5CD48288A4C07004842AF /* Doomsday_DeviceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doomsday_DeviceApp.swift; sourceTree = "<group>"; };
+		45C5CD4A288A4C07004842AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45C5CD4C288A4C0A004842AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C5CD4F288A4C0A004842AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45C5CD51288A4C0A004842AF /* Doomsday_Device.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Doomsday_Device.entitlements; sourceTree = "<group>"; };
+		45C5CD56288A4C0A004842AF /* Doomsday DeviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Doomsday DeviceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C5CD5A288A4C0A004842AF /* Doomsday_DeviceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doomsday_DeviceTests.swift; sourceTree = "<group>"; };
+		45C5CD60288A4C0A004842AF /* Doomsday DeviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Doomsday DeviceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C5CD64288A4C0A004842AF /* Doomsday_DeviceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doomsday_DeviceUITests.swift; sourceTree = "<group>"; };
+		45C5CD66288A4C0A004842AF /* Doomsday_DeviceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doomsday_DeviceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C5CD42288A4C07004842AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5CD53288A4C0A004842AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5CD5D288A4C0A004842AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C5CD3C288A4C07004842AF = {
+			isa = PBXGroup;
+			children = (
+				45C5CD47288A4C07004842AF /* Doomsday Device */,
+				45C5CD59288A4C0A004842AF /* Doomsday DeviceTests */,
+				45C5CD63288A4C0A004842AF /* Doomsday DeviceUITests */,
+				45C5CD46288A4C07004842AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C5CD46288A4C07004842AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C5CD45288A4C07004842AF /* Doomsday Device.app */,
+				45C5CD56288A4C0A004842AF /* Doomsday DeviceTests.xctest */,
+				45C5CD60288A4C0A004842AF /* Doomsday DeviceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C5CD47288A4C07004842AF /* Doomsday Device */ = {
+			isa = PBXGroup;
+			children = (
+				45C5CD48288A4C07004842AF /* Doomsday_DeviceApp.swift */,
+				45C5CD4A288A4C07004842AF /* ContentView.swift */,
+				45C5CD4C288A4C0A004842AF /* Assets.xcassets */,
+				45C5CD51288A4C0A004842AF /* Doomsday_Device.entitlements */,
+				45C5CD4E288A4C0A004842AF /* Preview Content */,
+			);
+			path = "Doomsday Device";
+			sourceTree = "<group>";
+		};
+		45C5CD4E288A4C0A004842AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45C5CD4F288A4C0A004842AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45C5CD59288A4C0A004842AF /* Doomsday DeviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				45C5CD5A288A4C0A004842AF /* Doomsday_DeviceTests.swift */,
+			);
+			path = "Doomsday DeviceTests";
+			sourceTree = "<group>";
+		};
+		45C5CD63288A4C0A004842AF /* Doomsday DeviceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45C5CD64288A4C0A004842AF /* Doomsday_DeviceUITests.swift */,
+				45C5CD66288A4C0A004842AF /* Doomsday_DeviceUITestsLaunchTests.swift */,
+			);
+			path = "Doomsday DeviceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C5CD44288A4C07004842AF /* Doomsday Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C5CD6A288A4C0A004842AF /* Build configuration list for PBXNativeTarget "Doomsday Device" */;
+			buildPhases = (
+				45C5CD41288A4C07004842AF /* Sources */,
+				45C5CD42288A4C07004842AF /* Frameworks */,
+				45C5CD43288A4C07004842AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Doomsday Device";
+			productName = "Doomsday Device";
+			productReference = 45C5CD45288A4C07004842AF /* Doomsday Device.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C5CD55288A4C0A004842AF /* Doomsday DeviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C5CD6D288A4C0A004842AF /* Build configuration list for PBXNativeTarget "Doomsday DeviceTests" */;
+			buildPhases = (
+				45C5CD52288A4C0A004842AF /* Sources */,
+				45C5CD53288A4C0A004842AF /* Frameworks */,
+				45C5CD54288A4C0A004842AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C5CD58288A4C0A004842AF /* PBXTargetDependency */,
+			);
+			name = "Doomsday DeviceTests";
+			productName = "Doomsday DeviceTests";
+			productReference = 45C5CD56288A4C0A004842AF /* Doomsday DeviceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45C5CD5F288A4C0A004842AF /* Doomsday DeviceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C5CD70288A4C0A004842AF /* Build configuration list for PBXNativeTarget "Doomsday DeviceUITests" */;
+			buildPhases = (
+				45C5CD5C288A4C0A004842AF /* Sources */,
+				45C5CD5D288A4C0A004842AF /* Frameworks */,
+				45C5CD5E288A4C0A004842AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C5CD62288A4C0A004842AF /* PBXTargetDependency */,
+			);
+			name = "Doomsday DeviceUITests";
+			productName = "Doomsday DeviceUITests";
+			productReference = 45C5CD60288A4C0A004842AF /* Doomsday DeviceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C5CD3D288A4C07004842AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					45C5CD44288A4C07004842AF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					45C5CD55288A4C0A004842AF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45C5CD44288A4C07004842AF;
+					};
+					45C5CD5F288A4C0A004842AF = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45C5CD44288A4C07004842AF;
+					};
+				};
+			};
+			buildConfigurationList = 45C5CD40288A4C07004842AF /* Build configuration list for PBXProject "Doomsday Device" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C5CD3C288A4C07004842AF;
+			productRefGroup = 45C5CD46288A4C07004842AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C5CD44288A4C07004842AF /* Doomsday Device */,
+				45C5CD55288A4C0A004842AF /* Doomsday DeviceTests */,
+				45C5CD5F288A4C0A004842AF /* Doomsday DeviceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C5CD43288A4C07004842AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5CD50288A4C0A004842AF /* Preview Assets.xcassets in Resources */,
+				45C5CD4D288A4C0A004842AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5CD54288A4C0A004842AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5CD5E288A4C0A004842AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C5CD41288A4C07004842AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5CD4B288A4C07004842AF /* ContentView.swift in Sources */,
+				45C5CD49288A4C07004842AF /* Doomsday_DeviceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5CD52288A4C0A004842AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5CD5B288A4C0A004842AF /* Doomsday_DeviceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C5CD5C288A4C0A004842AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5CD67288A4C0A004842AF /* Doomsday_DeviceUITestsLaunchTests.swift in Sources */,
+				45C5CD65288A4C0A004842AF /* Doomsday_DeviceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C5CD58288A4C0A004842AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C5CD44288A4C07004842AF /* Doomsday Device */;
+			targetProxy = 45C5CD57288A4C0A004842AF /* PBXContainerItemProxy */;
+		};
+		45C5CD62288A4C0A004842AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C5CD44288A4C07004842AF /* Doomsday Device */;
+			targetProxy = 45C5CD61288A4C0A004842AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45C5CD68288A4C0A004842AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45C5CD69288A4C0A004842AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		45C5CD6B288A4C0A004842AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Doomsday Device/Doomsday_Device.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Doomsday Device/Preview Content\"";
+				DEVELOPMENT_TEAM = BR926NY9FS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paytondeveloper.Doomsday-Device";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		45C5CD6C288A4C0A004842AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Doomsday Device/Doomsday_Device.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Doomsday Device/Preview Content\"";
+				DEVELOPMENT_TEAM = BR926NY9FS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paytondeveloper.Doomsday-Device";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		45C5CD6E288A4C0A004842AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BR926NY9FS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paytondeveloper.Doomsday-DeviceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doomsday Device.app/Contents/MacOS/Doomsday Device";
+			};
+			name = Debug;
+		};
+		45C5CD6F288A4C0A004842AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BR926NY9FS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paytondeveloper.Doomsday-DeviceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Doomsday Device.app/Contents/MacOS/Doomsday Device";
+			};
+			name = Release;
+		};
+		45C5CD71288A4C0A004842AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BR926NY9FS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paytondeveloper.Doomsday-DeviceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Doomsday Device";
+			};
+			name = Debug;
+		};
+		45C5CD72288A4C0A004842AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BR926NY9FS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paytondeveloper.Doomsday-DeviceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Doomsday Device";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C5CD40288A4C07004842AF /* Build configuration list for PBXProject "Doomsday Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5CD68288A4C0A004842AF /* Debug */,
+				45C5CD69288A4C0A004842AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C5CD6A288A4C0A004842AF /* Build configuration list for PBXNativeTarget "Doomsday Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5CD6B288A4C0A004842AF /* Debug */,
+				45C5CD6C288A4C0A004842AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C5CD6D288A4C0A004842AF /* Build configuration list for PBXNativeTarget "Doomsday DeviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5CD6E288A4C0A004842AF /* Debug */,
+				45C5CD6F288A4C0A004842AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C5CD70288A4C0A004842AF /* Build configuration list for PBXNativeTarget "Doomsday DeviceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5CD71288A4C0A004842AF /* Debug */,
+				45C5CD72288A4C0A004842AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C5CD3D288A4C07004842AF /* Project object */;
+}
